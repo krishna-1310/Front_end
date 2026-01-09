@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishna Patel | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">Krishna Patel</h1>
+    <button id="themeToggle">🌙</button>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2 class="heroname">Hello, I'm Krishna Patel 👋</h2>
+<p>
+  A BTech student exploring web development, problem solving, and clean UI design.
+  I enjoy building things, learning how they work, and improving them step by step.
+</p>
+
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="content">
+      <p>
+  I’m a BTech student who enjoys learning through hands-on projects and challenges.
+  I like exploring new concepts, breaking problems down, and improving my approach
+  with each project I build.
+</p>
+
+<p>
+  I’m continuously working on improving my technical skills while building a
+  strong foundation for future learning and growth.
+</p>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="content projects-grid">
+
+      <div class="project-card">
+        <h3>Fruit Akinator</h3>
+        <p>Guesses the fruit you are thinking of by asking questions.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Eagle Eyed</h3>
+        <p>A small-scale budget tracker with AI features.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Password Generator</h3>
+        <p>Generates a strong password for you.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+  <div class="skills-tech-grid">
+    <div class="skills-column">
+      <h3 class="section-title">Skills</h3>
+      <div class="skills-icons">
+        <div class="skill-icon html"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+        <div class="skill-icon css"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+        <div class="skill-icon js"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+        <div class="skill-icon c"><span class="letter">C</span><span>C</span></div>
+        <div class="skill-icon cpp"><span class="letter">C++</span><span>C++</span></div>
+        <div class="skill-icon java"><i class="fa-brands fa-java"></i><span>Java</span></div>
+        <div class="skill-icon python"><i class="fa-brands fa-python"></i><span>Python</span></div>
+      </div>
+    </div>
+
+    <div class="skills-column">
+      <h3 class="section-title">Tech Stack</h3>
+
+      <div class="skills-icons">
+        <div class="skill-icon vscode"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
+        <div class="skill-icon bluej"><span class="letter">BJ</span><span>BlueJ</span></div>
+        <div class="skill-icon turboc"><span class="letter">TC</span><span>Turbo C</span></div>
+        <div class="skill-icon cursor"><i class="fa-solid fa-arrow-pointer"></i><span>Cursor</span></div>
+        <div class="skill-icon antigravity"><span class="letter">AG</span><span>Antigravity</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <section id="contact">
+  <h2 class="section-title">Connect With Me</h2>
+
+  <div class="social-container">
+    <a href="mailto:kris13102006@gmail.com" class="social gmail">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+
+    <a href="https://github.com/" target="_blank" class="social github">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://linkedin.com/" target="_blank" class="social linkedin">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="https://instagram.com/" target="_blank" class="social instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+  <br>
+  <form id="contactForm" novalidate>
+  <div class="form-group">
+    <input type="text" id="name" placeholder="Your Name">
+    <small class="error-msg"></small>
+  </div>
+
+  <div class="form-group">
+    <input type="email" id="email" placeholder="Your Email">
+    <small class="error-msg"></small>
+  </div>
+
+  <div class="form-group">
+    <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+    <small class="error-msg"></small>
+  </div>
+
+  <button type="submit" class="submit-btn">Send Message</button>
+</form>
+
+</section>
+<script src="script.js"></script>
+
+
+</body>
+</html>
